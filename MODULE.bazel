@@ -1,0 +1,5 @@
+module(
+    name = "grpc",
+)
+
+bazel_dep(name = "rules_proto", version = "4.0.0")
